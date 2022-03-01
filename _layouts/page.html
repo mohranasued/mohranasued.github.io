@@ -1,14 +1,45 @@
 ---
 layout: default
 ---
-<article>
 
+<article>
   <header>
     <h1>{{ page.title | escape }}</h1>
   </header>
 
   <section>
-    {{ content }}
+    <div class="text-center">
+      <img  
+        src="../assets/images/foto.jpg"
+        width="300"
+        height="300"
+        class="rounded-circle"
+        alt="..."
+      />
+    </div>
+    <div class="text-center">
+      <img
+        src="../assets/images/logo.png"
+        width="500"
+        height="350"
+        alt="..."
+      />
+    </div>
+    <p class="text-center">
+      Oiê, antes de tudo, agradeço seu contato!
+    </p>
+    <p class="text-center">
+      Então me conta aqui, o que deseja realçar em você? 🌸 E não se esqueça de olhar nosso catálogo disponível aqui no insta!
+    </p>
   </section>
 
+  <div class="d-flex justify-content-center" style="margin-bottom: 10px;">
+    <div class="card text-center" style="width: 100%">
+      <div class="card-body">        
+        <a href="https://api.whatsapp.com/send?phone=+5516992983960&text=Oi, gostaria de agendar um horário!" class="btn btn-primary" style="color: #f7a4c2 ;"
+          ><i class="bi bi-whatsapp"></i> Agende seu horário!</a
+        >
+      </div>
+    </div>
+  </div>
 </article>
